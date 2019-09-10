@@ -15,7 +15,7 @@ gcloud container clusters create apacbootcamp2019 --no-enable-legacy-authorizati
 
 kubectl get nodes
 
-git clone https://github.com/nodnarboen/HOT-k8s.git
+git clone https://github.com/phathit-ch/HOT-k8s.git
 
 https://www.dynatrace.com/support/help/technology-support/cloud-platforms/google-cloud-platform/google-kubernetes-engine/deploy-oneagent-on-google-kubernetes-engine-clusters/
 
