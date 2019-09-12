@@ -130,5 +130,10 @@ kubectl get deployments -n production -l tier=frontend
 
 Merge Service
 
-
+== Troubleshooting
+kubectl -n dynatrace logs -p [pod name]
+kubectl -n dynatrace delete secret oneagent
+kubectl delete -n dynatrace oneagent --all
+kubectl delete -f https://raw.githubusercontent.com/Dynatrace/dynatrace-oneagent-operator/master/deploy/kubernetes.yaml
+kubectl delete -n production --all
 
